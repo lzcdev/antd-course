@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GeekNewsViewController : UINavigationController
+@interface GeekNewsViewController : UIViewController
 
 @end
