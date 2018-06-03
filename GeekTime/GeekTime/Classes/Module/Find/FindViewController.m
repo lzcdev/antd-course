@@ -9,7 +9,9 @@
 #import "FindViewController.h"
 #import "GeekNewsViewController.h"
 
-@interface FindViewController ()
+@interface FindViewController ()<UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) UITableView *tableView;
 
 @end
 
@@ -23,9 +25,5 @@
     
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.navigationController pushViewController:[GeekNewsViewController new] animated:YES];
-
-}
 
 @end
