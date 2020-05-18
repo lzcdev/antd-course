@@ -32,3 +32,10 @@ export default {
 + ...
 }
 ```
+
+### Module not found: Can't resolve 'umi/link'
+
+`src/layout/index.js` 中引入方式变为
+```
+import { Link } from 'umi'
+```
