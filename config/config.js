@@ -21,6 +21,7 @@ export default {
           component: 'helloworld',
         },
         { path: 'puzzlecards', component: './puzzlecards' },
+        { path: 'list', component: '../page/list' },
         {
           path: '/dashboard',
           routes: [
